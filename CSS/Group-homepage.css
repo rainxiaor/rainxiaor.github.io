@@ -1,0 +1,168 @@
+html, body {
+    height: 100%;
+}
+
+@font-face{
+    font-family: 'UpperWestSide';
+    src: url('UpperWestSide.ttf');
+}
+
+.main{
+    min-height: 100%;
+    background-color: #d5b6b6;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-bottom: 60px;
+}
+
+.navbar{
+    align-items: flex-start;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    justify-content: space-between;
+    background-color: #f3eaea;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 17px;
+    height: 470px;
+    width: 110px;
+    text-align: center;  
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.childpage{
+    background-color: #d5b6b6;
+    width: 100%;
+}
+
+.heroimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('homepagebackgroundpic.jpeg');
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.heroimage h1{
+    text-align: center;
+}
+
+.article-title{
+    text-align: center;
+    padding-bottom: 0px;
+    padding-right: 110px;
+
+}
+
+.article-content{
+    padding-right: 110px;
+}
+
+.tile-blocks-1, .tile-blocks-2{
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+}
+
+.east-harlem-tile, .morningside-tile, .hells-kitchen-tile, jersey-city-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 100%;
+}
+
+img{
+    padding-bottom: 20px;
+}
+
+.end-paragraph-note{
+    padding-right: 110px;
+ 
+}
+
+a:link {
+    color:black;
+}
+
+h1{
+    font-size: 500%;
+    font-family: 'UpperWestSide', sans-serif;
+}
+
+h2{
+    font-size: 300%;
+    font-family: 'Kreon', serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+/* Snapchat */
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;}
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+    color: white;}
+
+.footer-logos {
+    padding-top: 100px;
+    margin: 20px; 
+    text-align:center;
+}
