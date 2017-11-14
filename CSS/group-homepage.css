@@ -4,7 +4,7 @@ html, body {
 
 @font-face{
     font-family: 'UpperWestSide';
-    src: url('UpperWestSide.ttf');
+    src: url('../upperwestside.ttf');
 }
 
 .main{
@@ -57,7 +57,7 @@ li{
 .heroimage{
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('homepagebackgroundpic.jpeg');
+    background-image: url('../Images/homepagebackgroundpic.jpg');
     padding: 10px;
     height: 500px;
     display: flex;
