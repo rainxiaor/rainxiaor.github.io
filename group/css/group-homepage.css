@@ -7,7 +7,7 @@ html, body {
     src: url('../upperwestside.ttf');
 }
 
-.main{
+.LWmain{
     min-height: 100%;
     background-color: #d5b6b6;
     display: flex;
@@ -16,11 +16,11 @@ html, body {
     padding-bottom: 60px;
 }
 
-.navbar{
+.LWnavbar{
     align-items: flex-start;
 }
 
-.navbar-list{
+.LWnavbar-list{
     display: flex;
     flex-direction: column;
     margin-top: 0px;
@@ -36,28 +36,28 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
-.navbar a{
+.LWnavbar a{
     text-decoration: none;
 }
 
-.navbar a:hover{
+.LWnavbar a:hover{
     color: red;
 }
 
-li{
+.LWli{
     list-style-type: none;
     padding: 15px;
 }
 
-.childpage{
+.LWchildpage{
     background-color: #d5b6b6;
     width: 100%;
 }
 
-.heroimage{
+.LWheroimage{
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../Images/homepagebackgroundpic.jpg');
+    background-image: url('../images/homepagebackgroundpic.jpg');
     padding: 10px;
     height: 500px;
     display: flex;
@@ -66,22 +66,22 @@ li{
     color: antiquewhite;
 }
 
-.heroimage h1{
+.LWheroimage h1{
     text-align: center;
 }
 
-.article-title{
+.LWarticle-title{
     text-align: center;
     padding-bottom: 0px;
     padding-right: 110px;
 
 }
 
-.article-content{
+.LWarticle-content{
     padding-right: 110px;
 }
 
-.tile-blocks-1, .tile-blocks-2{
+.LWtile-blocks-1, .LWtile-blocks-2{
     font-family: 'Lato', sans-serif;
     padding-bottom: 60px;
     padding-right: 60px;
@@ -93,7 +93,7 @@ li{
     text-align: center;
 }
 
-.east-harlem-tile, .morningside-tile, .hells-kitchen-tile, jersey-city-tile {
+.LWeast-harlem-tile, .LWmorningside-tile, .LWhells-kitchen-tile, .LWjersey-city-tile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +106,7 @@ img{
     padding-bottom: 20px;
 }
 
-.end-paragraph-note{
+.LWend-paragraph-note{
     padding-right: 110px;
  
 }
@@ -129,7 +129,7 @@ p{
     font-family: 'Lato', sans-serif;
 }
 
-.fa {
+.LWfa {
     padding: 10px;
     font-size: 30px;
     width: 20px;
@@ -140,28 +140,28 @@ p{
 }
 
 /* Twitter */
-.fa-twitter {
+.LWfa-twitter {
     background: #55ACEE;
     color: white;}
 /* Facebook */
-.fa-facebook {
+.LWfa-facebook {
     background: #3B5998;
     color: white;}
 /* Snapchat */
-.fa-snapchat-ghost {
+.LWfa-snapchat-ghost {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
 /* Youtube */
-.fa-youtube {
+.LWfa-youtube {
   background: #bb0000;
   color: white;}
 /* Instagram */
-.fa-instagram {
+.LWfa-instagram {
   background: #125688;
     color: white;}
 
-.footer-logos {
+.LWfooter-logos {
     padding-top: 100px;
     margin: 20px; 
     text-align:center;
