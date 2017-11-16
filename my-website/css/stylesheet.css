@@ -185,7 +185,7 @@ li{
 
 .who-am-I-title, .stuff-i-love-title{
     text-align: center;
-    padding: 10px
+    padding: 10px;
     margin: 10px;
     font-family: 'Meddon', cursive;
     font-size: 100%;
@@ -268,9 +268,7 @@ li{
     padding-bottom: 20px;
 }
 
-indonesia-pic{
-    background-size: 
-}
+
 
 /* END Explore page code*/
 
@@ -303,6 +301,7 @@ indonesia-pic{
 }
 
 .bali-pic {
+    width: 100%;
     text-align: center;
     align-items: center;
     padding-bottom: 20px;
