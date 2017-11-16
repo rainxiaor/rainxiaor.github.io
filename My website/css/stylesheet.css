@@ -1,0 +1,420 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #EDF6FA;
+}
+
+.nav-bar-items{
+    background-color: #EDF6FA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-bar-items a{
+    text-decoration: none;
+}
+
+.nav-bar-items a:hover{
+    color: #6C6D7A;
+}
+
+.my-name{
+    font-family: 'Meddon', cursive;
+    font-size: 175%;
+    padding: 30px 0px 30px 0px;
+    color: #6E73A9;
+}
+
+.my-name a:hover{
+    color: #6C6D7A;
+}
+
+.indiv-page-links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: #6E73A9;
+}
+
+/* START Dropdown code*/
+.explore-dropdown{
+    position: relative;
+    display: inline-block;
+    color: #6E73A9;
+}
+
+.dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    padding: 0px;
+    background-color: inherit;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    color: #6E73A9;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EDF6FA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #6E73A9;
+}
+
+.dropbtn:hover + .dropdown-content {
+    display: block;
+    color: #6C6D7A;
+}
+
+.dropdown-content:hover {
+    display: block;
+    color: #6C6D7A;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #6E73A9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #BEB9AC;
+    color: #6C6D7A;
+}
+
+.explore-dropdown:hover .dropbtn {
+    background-color: inherit;
+    color: #6C6D7A;
+}
+/* END Dropdown code*/
+
+li{
+    padding-right: 60px;
+    padding-left: 60px;
+    list-style-type: none;
+    align-items: center;
+}
+
+/* START Homepage code*/
+
+.homepage-heroimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/jumping.jpg');
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.homepage-heroimage h1{
+    text-align: center;
+}
+
+.homepage-title{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Meddon', cursive;
+    font-size: 100%;
+    color: #6E73A9;
+}
+
+.homepage-content{
+    padding: 0px 20px 60px 20px;
+}
+
+.homepage-tiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+}
+
+.me-tile-block, .explore-tile-block, .savor-tile-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.tile-text{
+    color: #6E73A9;
+    font-family: 'Nunito', sans-serif;
+}
+/* END Homepage code*/
+
+/* START Me page code*/
+
+.me-heroimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Family-photo.jpg');
+    padding: 0px 10px 10px
+        10px;
+    height: 550px;
+    justify-content: center;
+}
+
+.me-heroimage h1{
+    text-align: center;
+}
+
+.who-am-I-title, .stuff-i-love-title{
+    text-align: center;
+    padding: 10px
+    margin: 10px;
+    font-family: 'Meddon', cursive;
+    font-size: 100%;
+    color: #6E73A9;
+}
+
+.who-am-I-content, .other-fam-members{
+    padding: 0px 20px 20px 20px;
+}
+
+.candyland-pic{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.tiger-content{
+    padding: 0px 20px 20px 20px;
+}
+
+.running, .singing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+}
+
+.running-pic, .music-video{
+    text-align: center;
+    padding: 40px;
+}
+
+.running-blurb, .singing-blurb{
+    padding: 40px;
+}
+
+
+.photo-credit{
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    color: #6C6D7A; 
+    padding-left: 20px;
+}
+
+/* END Me page code*/
+
+/* START Explore page code*/
+
+.explore-heroimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/hawaii.jpg');
+    padding: 10px;
+    height: 600px;
+    justify-content: center;
+}
+
+.explore-heroimage h1{
+    text-align: center;
+}
+
+.explore-title, .indonesia-title, .ireland-title, .china-title{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Meddon', cursive;
+    font-size: 100%;
+    color: #6E73A9;
+}
+
+.explore-intro-content, .indonesia-content, .ireland-content, .china-content{
+    padding: 0px 20px 60px 20px;
+}
+
+.indonesia-pic, .ireland-pic, .china-pic{
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+indonesia-pic{
+    background-size: 
+}
+
+/* END Explore page code*/
+
+/* START Indonesia page code*/
+
+.indonesia-heroimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/Indonesia-pano-cropped.jpg');
+    padding: 10px;
+    height: 300px;
+    justify-content: center;
+}
+
+.indonesia-heroimage h1{
+    text-align: center;
+}
+
+.indonesia-homepage-title, .bali-title{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Meddon', cursive;
+    font-size: 100%;
+    color: #6E73A9;
+}
+
+.indonesia-homepage-intro-content, .bali-content{
+    padding: 0px 20px 60px 20px;
+}
+
+.bali-pic {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+    width: 100%;
+    border-bottom: solid 0px #6C6D7A;    
+}
+
+.left-articles-section{
+    padding: 0px 20px 00px 20px;
+    border-right: solid 1px #6C6D7A;
+    flex: 5;
+    text-align: left;
+}
+
+.left-articles-section li{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 120%;
+    color: #6C6D7A;
+}
+
+.ubud-photo, .lombok-photo, .treehouse-photo{
+    text-align: center;
+}
+
+.ubud-attractions a{
+    text-decoration: none;
+    font-size: 90%;
+    color: #6E73A9;
+}
+
+.lodging-recs a{
+    text-decoration: none;
+    font-size: 90%;
+    color: #6E73A9;
+}
+
+.spacer{
+    padding-top: 100px;
+}
+
+.right-activities-bar{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    width: 100%;
+    flex: 2;
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6D7A;
+    padding: 0px 20px 0px 20px;
+}
+
+.right-activities-bar h5{
+    text-align: left;
+    font-size: 100%;
+}
+
+.temples-block, .spa-meditation-block, .trekking-block, .cultural-shows-block, .water-sports-block, .shopping-block{
+    padding: 0px 20px 40px 20px;
+    text-align: center;
+}
+
+/* END Indonesia page code*/
+
+/* START Font code*/
+
+p{
+    font-family: 'Nunito', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 120%;
+    color: #6C6D7A;
+}
+
+h2{
+    font-family: 'Meddon', cursive;
+    font-size: 300%;
+    color: #6E73A9;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Meddon', cursive;
+    font-size: 200%;
+    color: #6E73A9;
+    padding: 0px;
+}
+
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    color: #6E73A9; 
+}
+
+/* END Font code*/
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6D7A;
+}
